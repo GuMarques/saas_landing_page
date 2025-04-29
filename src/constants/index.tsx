@@ -4,9 +4,9 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "No more missed details",
+    title: "Automatic Transcription",
+    text: "Voxa captures every word from your meetings in real-time and converts speech into accurate, searchable text—so nothing gets lost.",
     button: {
       icon: "/images/magictouch.svg",
       title: "Watch the demo",
@@ -15,9 +15,9 @@ export const features = [
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Clarity in minutes",
+    title: "AI-Powered Summaries",
+    text: "Get instant summaries of your calls, highlighting key points, decisions, and next steps—perfect for sharing and following up.",
     button: {
       icon: "/images/docs.svg",
       title: "Read the docs",
@@ -29,22 +29,22 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Google Meet, Zoom & Teams",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Speaker Identification",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Secure Cloud Storage",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
+    title: "Multilingual Transcription",
   },
 ];
 
@@ -114,14 +114,14 @@ export const faq = [
 export const plans = [
   {
     id: "0",
-    title: "Core",
+    title: "Starter",
     priceMonthly: 19,
     priceYearly: 12,
-    caption: "Best for solo creators",
+    caption: "Best for individuals",
     features: [
+      "5 meetings per month",
+      "Basic transcription",
       "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
       "24/7 support",
     ],
     icon: "/images/circle.svg",
@@ -129,14 +129,14 @@ export const plans = [
   },
   {
     id: "1",
-    title: "Overdrive",
+    title: "Team",
     priceMonthly: 79,
     priceYearly: 59,
     caption: "Most popular plan",
     features: [
-      "All Starter features",
+      "40 meetings per month",
       "1TB additional storage",
-      "Unlimited projects",
+      "Transcription with speaker tags",
       "Analytics",
     ],
     icon: "/images/triangle.svg",
@@ -144,15 +144,15 @@ export const plans = [
   },
   {
     id: "2",
-    title: "Team",
+    title: "Business",
     priceMonthly: 39,
     priceYearly: 29,
-    caption: "Exclusively for teams",
+    caption: "For teams only",
     features: [
-      "All Overdrive features",
+      "Unlimited meetings",
       "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "Real-time transcription",
+      "Management dashboard",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
