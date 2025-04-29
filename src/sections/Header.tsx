@@ -1,11 +1,44 @@
 import clsx from "clsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setHasScrolled(window.scrollY > 32);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const NavLink = ({ title }: { title: string }) => (
+    <LinkScroll
+      spy
+      smooth
+      to={title}
+      offset={-100}
+      activeClass="!nav-active"
+      onClick={() => setIsOpen(false)}
+      className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+    >
+      {title}
+    </LinkScroll>
+  );
+
   return (
-    <header className="fixed top-0 left-0 z-50 w-full py-10">
+    <header
+      className={clsx(
+        "fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500",
+        hasScrolled && "!py-2 bg-black-100 backdrop-blur-[8px]"
+      )}
+    >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
           <img src="/images/xora.svg" width={115} height={55} alt="Logo" />
@@ -20,16 +53,16 @@ export const Header = () => {
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
-                  <NavLink title="Features" to="/" />
+                  <NavLink title="features" />
                   <div className="dot" />
-                  <NavLink title="Pricing" to="/" />
+                  <NavLink title="pricing" />
                 </li>
                 <li className="nav-logo">
                   <LinkScroll
                     spy
                     smooth
                     to="hero"
-                    offset={-100}
+                    offset={-250}
                     className={clsx(
                       "max-lg:hidden transition-transform duration-500 cursor-pointer"
                     )}
@@ -43,9 +76,9 @@ export const Header = () => {
                   </LinkScroll>
                 </li>
                 <li className="nav-li">
-                  <NavLink title="faq" to="/" />
+                  <NavLink title="faq" />
                   <div className="dot" />
-                  <NavLink title="download" to="/" />
+                  <NavLink title="download" />
                 </li>
               </ul>
             </nav>
@@ -81,12 +114,3 @@ export const Header = () => {
     </header>
   );
 };
-
-const NavLink = ({ title, to }: { title: string; to: string }) => (
-  <LinkScroll
-    to={to}
-    className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
-  >
-    {title}
-  </LinkScroll>
-);
