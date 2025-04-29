@@ -51,63 +51,57 @@ export const details = [
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+    question: "What platforms does Xora support?",
+    answer: "Xora works with Zoom, Google Meet, and Microsoft Teams.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "Do I need to install anything?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      " Yes, Xora requires a lightweight desktop app to record your meetings seamlessly.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "Can I use Voxa for past meetings?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, you can upload recorded meetings for transcription and summary.",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "Is my meeting data secure?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely. All data is encrypted and stored securely in the cloud.",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "Does Xora identify different speakers?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, our AI automatically tags different speakers in transcriptions.",
   },
   {
     id: "5",
-    question: "What happens when I'm out of storage?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+    question: "Can I share meeting summaries?",
+    answer: "Yes, you can export and share summaries in TXT or PDF formats.",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+    question: "What languages are supported?",
+    answer: "Xora supports English, Spanish, Portuguese, French, and more.",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+    question: "How quickly are summaries generated?",
+    answer: "Summaries are available within minutes after the meeting ends.",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+    question: "Can I cancel anytime?",
+    answer: "Yes, you can cancel or change your plan at any time.",
   },
   {
     id: "9",
-    question: "I'm locked out of my account what do I do?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+    question: "Do you offer a free trial?",
+    answer: "Yes, all new users get a 7-day free trial with full features.",
   },
 ];
 
