@@ -1,4 +1,4 @@
-import { Android, Ios, Web, Windows } from "./components";
+import { Android, Ios, Mac, Windows } from "./components";
 
 export const features = [
   {
@@ -6,7 +6,7 @@ export const features = [
     icon: "/images/feature-1.png",
     caption: "No more missed details",
     title: "Automatic Transcription",
-    text: "Voxa captures every word from your meetings in real-time and converts speech into accurate, searchable text—so nothing gets lost.",
+    text: "Xora captures every word from your meetings in real-time and converts speech into accurate, searchable text—so nothing gets lost.",
     button: {
       icon: "/images/magictouch.svg",
       title: "Watch the demo",
@@ -62,7 +62,7 @@ export const faq = [
   },
   {
     id: "2",
-    question: "Can I use Voxa for past meetings?",
+    question: "Can I use Xora for past meetings?",
     answer:
       "Yes, you can upload recorded meetings for transcription and summary.",
   },
@@ -130,7 +130,7 @@ export const plans = [
     features: [
       "40 meetings per month",
       "1TB additional storage",
-      "Transcription with speaker tags",
+      "Speaker tags",
       "Analytics",
     ],
     icon: "/images/triangle.svg",
@@ -263,8 +263,8 @@ export const links = [
   },
   {
     id: "3",
-    title: "Web",
-    icon: <Web />,
+    title: "MacOS",
+    icon: <Mac />,
     url: "#",
   },
 ];
