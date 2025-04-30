@@ -2,7 +2,7 @@
   "name": "saas_landing_page",
   "homepage": "https://gumarques.github.io/saas_landing_page/",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
