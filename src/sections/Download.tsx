@@ -17,7 +17,7 @@ export const Download = () => {
                   alt="xora"
                   height={55}
                   width={160}
-                  src="/images/xora.svg"
+                  src="./images/xora.svg"
                 />
               </div>
 
@@ -37,7 +37,7 @@ export const Download = () => {
                         <Marker />
                       </span>
                       <img
-                        src={"/images/lines.svg"}
+                        src={"./images/lines.svg"}
                         alt="lines"
                         className="absolute size-13/20 object-contain"
                       />
@@ -60,7 +60,7 @@ export const Download = () => {
                     height={655}
                     alt="screen"
                     className="rounded-xl"
-                    src="/images/screen.jpg"
+                    src="./images/screen.jpg"
                   />
                 </div>
               </div>

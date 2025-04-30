@@ -19,13 +19,13 @@ export const Hero = () => {
               matters, not on taking notes.
             </p>
             <LinkScroll to="features" offset={-100} spy smooth>
-              <Button icon="/images/zap.svg">See how it works</Button>
+              <Button icon="./images/zap.svg">See how it works</Button>
             </LinkScroll>
           </div>
           <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none !hero-img_res">
             <img
               alt="hero"
-              src="/images/hero.png"
+              src="./images/hero.png"
               className="size-1230 max-lg:h-auto"
             />
           </div>

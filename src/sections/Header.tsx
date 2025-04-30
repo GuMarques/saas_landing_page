@@ -41,7 +41,7 @@ export const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/images/xora.svg" width={115} height={55} alt="Logo" />
+          <img src="./images/xora.svg" width={115} height={55} alt="Logo" />
         </a>
         <div
           className={clsx(
@@ -71,7 +71,7 @@ export const Header = () => {
                       alt="logo"
                       width={160}
                       height={55}
-                      src="/images/xora.svg"
+                      src="./images/xora.svg"
                     />
                   </LinkScroll>
                 </li>
@@ -88,13 +88,13 @@ export const Header = () => {
                 height={380}
                 alt="outline"
                 className="relative z-2"
-                src="/images/bg-outlines.svg"
+                src="./images/bg-outlines.svg"
               />
               <img
                 width={960}
                 height={380}
                 alt="outline"
-                src="/images/bg-outlines-fill.png"
+                src="./images/bg-outlines-fill.png"
                 className="absolute inset-0 mix-blend-soft-light opacity-5"
               />
             </div>

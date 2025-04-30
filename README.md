@@ -23,4 +23,4 @@ This project is built using the following technologies:
 
 ![Landing Page Preview 1](./images/landing-page-preview-1.png)
 
-[View Full Preview]()
+[View Full Preview](https://gumarques.github.io/saas_landing_page/)

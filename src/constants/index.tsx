@@ -3,23 +3,23 @@ import { Android, Ios, Mac, Windows } from "./components";
 export const features = [
   {
     id: "0",
-    icon: "/images/feature-1.png",
+    icon: "./images/feature-1.png",
     caption: "No more missed details",
     title: "Automatic Transcription",
-    text: "Xora captures every word from your meetings in real-time and converts speech into accurate, searchable text—so nothing gets lost.",
+    text: "Xora captures every word from your meetings in real-time and converts speech into accurate, searchable text.",
     button: {
-      icon: "/images/magictouch.svg",
+      icon: "./images/magictouch.svg",
       title: "Watch the demo",
     },
   },
   {
     id: "1",
-    icon: "/images/feature-2.png",
+    icon: "./images/feature-2.png",
     caption: "Clarity in minutes",
     title: "AI-Powered Summaries",
     text: "Get instant summaries of your calls, highlighting key points, decisions, and next steps—perfect for sharing and following up.",
     button: {
-      icon: "/images/docs.svg",
+      icon: "./images/docs.svg",
       title: "Read the docs",
     },
   },
@@ -28,22 +28,22 @@ export const features = [
 export const details = [
   {
     id: "0",
-    icon: "/images/detail-1.png",
+    icon: "./images/detail-1.png",
     title: "Google Meet, Zoom & Teams",
   },
   {
     id: "1",
-    icon: "/images/detail-2.png",
+    icon: "./images/detail-2.png",
     title: "Speaker Identification",
   },
   {
     id: "2",
-    icon: "/images/detail-3.png",
+    icon: "./images/detail-3.png",
     title: "Secure Cloud Storage",
   },
   {
     id: "3",
-    icon: "/images/detail-4.png",
+    icon: "./images/detail-4.png",
     title: "Multilingual Transcription",
   },
 ];
@@ -118,8 +118,8 @@ export const plans = [
       "100MB Cloud storage",
       "24/7 support",
     ],
-    icon: "/images/circle.svg",
-    logo: "/images/plan-1.png",
+    icon: "./images/circle.svg",
+    logo: "./images/plan-1.png",
   },
   {
     id: "1",
@@ -133,8 +133,8 @@ export const plans = [
       "Speaker tags",
       "Analytics",
     ],
-    icon: "/images/triangle.svg",
-    logo: "/images/plan-2.png",
+    icon: "./images/triangle.svg",
+    logo: "./images/plan-2.png",
   },
   {
     id: "2",
@@ -148,8 +148,8 @@ export const plans = [
       "Real-time transcription",
       "Management dashboard",
     ],
-    icon: "/images/hexagon.svg",
-    logo: "/images/plan-3.png",
+    icon: "./images/hexagon.svg",
+    logo: "./images/plan-3.png",
   },
 ];
 
@@ -158,7 +158,7 @@ export const testimonials = [
     id: "0",
     name: "Jessica Saunders",
     role: "Globalnomads",
-    avatarUrl: "/images/testimonials/jessica-saunders.png",
+    avatarUrl: "./images/testimonials/jessica-saunders.png",
     comment:
       "Xora's customer support is second to none! They're like my tech superheroes, always there when I need them.",
   },
@@ -166,7 +166,7 @@ export const testimonials = [
     id: "1",
     name: "Mark Erixon",
     role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/mark-erixon.png",
+    avatarUrl: "./images/testimonials/mark-erixon.png",
     comment:
       "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
   },
@@ -174,7 +174,7 @@ export const testimonials = [
     id: "2",
     name: "Melanie Hurst",
     role: "Cyberleap",
-    avatarUrl: "/images/testimonials/melanie-hurst.png",
+    avatarUrl: "./images/testimonials/melanie-hurst.png",
     comment:
       "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
   },
@@ -182,7 +182,7 @@ export const testimonials = [
     id: "3",
     name: "Alicia Barker",
     role: "Cyberleap",
-    avatarUrl: "/images/testimonials/alicia-barker.png",
+    avatarUrl: "./images/testimonials/alicia-barker.png",
     comment:
       "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
   },
@@ -190,7 +190,7 @@ export const testimonials = [
     id: "4",
     name: "Becky Snider",
     role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
+    avatarUrl: "./images/testimonials/becky-snider.png",
     comment:
       "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
   },
@@ -198,7 +198,7 @@ export const testimonials = [
     id: "5",
     name: "Jim Bradley",
     role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
+    avatarUrl: "./images/testimonials/jim-bradley.png",
     comment:
       "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
   },
@@ -208,35 +208,35 @@ export const logos = [
   {
     id: "0",
     title: "Afterpay",
-    url: "/images/logos/afterpay.svg",
+    url: "./images/logos/afterpay.svg",
     width: 156,
     height: 48,
   },
   {
     id: "1",
     title: "Amplitude",
-    url: "/images/logos/amplitude.svg",
+    url: "./images/logos/amplitude.svg",
     width: 194,
     height: 48,
   },
   {
     id: "2",
     title: "Sonos",
-    url: "/images/logos/sonos.svg",
+    url: "./images/logos/sonos.svg",
     width: 115,
     height: 48,
   },
   {
     id: "3",
     title: "Maze",
-    url: "/images/logos/maze.svg",
+    url: "./images/logos/maze.svg",
     width: 142,
     height: 48,
   },
   {
     id: "4",
     title: "Drips",
-    url: "/images/logos/drips.svg",
+    url: "./images/logos/drips.svg",
     width: 77,
     height: 48,
   },
@@ -273,25 +273,25 @@ export const socials = [
   {
     id: "0",
     title: "x",
-    icon: "/images/socials/x.svg",
+    icon: "./images/socials/x.svg",
     url: "#",
   },
   {
     id: "1",
     title: "Threads",
-    icon: "/images/socials/threads.svg",
+    icon: "./images/socials/threads.svg",
     url: "#",
   },
   {
     id: "2",
     title: "Instagram",
-    icon: "/images/socials/instagram.svg",
+    icon: "./images/socials/instagram.svg",
     url: "#",
   },
   {
     id: "3",
     title: "Discord",
-    icon: "/images/socials/discord.svg",
+    icon: "./images/socials/discord.svg",
     url: "#",
   },
 ];

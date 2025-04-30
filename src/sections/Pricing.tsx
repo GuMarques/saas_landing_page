@@ -42,13 +42,13 @@ export const Pricing = () => {
                 height={380}
                 alt="outline"
                 className="relative z-2"
-                src="/images/bg-outlines.svg"
+                src="./images/bg-outlines.svg"
               />
               <img
                 width={960}
                 height={380}
                 alt="outline"
-                src="/images/bg-outlines-fill.png"
+                src="./images/bg-outlines-fill.png"
                 className="absolute inset-0 opacity-5 mix-blend-soft-light"
               />
             </div>
@@ -132,7 +132,7 @@ export const Pricing = () => {
                       className="relative flex items-center gap-5"
                     >
                       <img
-                        src={"/images/check.png"}
+                        src={"./images/check.png"}
                         alt="check"
                         className="size-10 object-contain"
                       />
